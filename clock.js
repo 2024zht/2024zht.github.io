@@ -27,9 +27,9 @@ const data = {
 
     // 如果分钟数为20或50，输出特定提示词
     if (this.minutes === 20) {
-      timeString += "\n还差十秒二十分钟！";
+      timeString += "\n站起来活动一下！";
     } else if (this.minutes === 50) {
-      timeString += "\n还差十秒五十分钟！";
+      timeString += "\n站起来活动一下！";
     }
 
     return timeString;
